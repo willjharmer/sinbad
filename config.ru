@@ -1,6 +1,6 @@
 $: << File.dirname(__FILE__)
 
-require 'lib/sinbad'
+require 'sinbad'
 
 run Sinbad.new
 

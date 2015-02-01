@@ -1,7 +1,8 @@
 require 'sinatra/base'
+require 'slim'
 
 class Sinbad < Sinatra::Base
   get '/' do
-    'Hello World'
+    slim :home
   end
 end
